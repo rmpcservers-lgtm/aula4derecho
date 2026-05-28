@@ -246,15 +246,15 @@ footer{
     align-items: center;
     text-align: center;
 }
-.escudo{
+.logo{
   display:flex;
   align-items:center;
-  gap:200px;
+  gap:10%;
   font-size:24px;
   font-weight:bold;
 }
 
-.escudo img{
+.logo img{
   width:45px;
   height:45px;
   object-fit:contain;
