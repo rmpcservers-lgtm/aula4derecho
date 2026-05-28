@@ -233,20 +233,16 @@ footer{
   }
 
 }
-.hero-image {
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.7)),
+    url('img/foto.jpeg');
+
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-}
-
-.hero-image img {
-    width: 300px;
-    border-radius: 20px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.5);
-    border: 3px solid #c9a227;
-    transition: 0.3s;
-}
-
-.hero-image img:hover {
-    transform: scale(1.03);
+    align-items: center;
+    text-align: center;
 }
