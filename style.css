@@ -233,3 +233,20 @@ footer{
   }
 
 }
+.hero-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    border: 3px solid #c9a227;
+    transition: 0.3s;
+}
+
+.hero-image img:hover {
+    transform: scale(1.03);
+}
