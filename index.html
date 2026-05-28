@@ -109,27 +109,43 @@ Saludos cordiales.
  
 
   <!-- CONTACTO -->
+<section class="contacto" id="contacto">
 
-  <section class="contacto" id="contacto">
+  <h2>Contacto</h2>
 
-    <h2>Contacto</h2>
+  <form action="https://formspree.io/f/xredjoyo" method="POST">
 
-    <form id="formulario">
+    <input type="text"
+           name="nombre"
+           placeholder="Nombre y apellido"
+           required>
 
-      <input type="text" placeholder="Nombre" required>
+    <input type="text"
+           name="anio"
+           placeholder="Año en el que cursa"
+           required>
 
-      <input type="email" placeholder="Correo electrónico" required>
+    <input type="email"
+           name="email"
+           placeholder="Correo electrónico"
+           required>
 
-      <textarea placeholder="Escribe tu mensaje"></textarea>
+    <input type="text"
+           name="materia"
+           placeholder="Materia o tema de consulta"
+           required>
 
-      <button type="submit">
-        Enviar
-      </button>
+    <textarea name="mensaje"
+              placeholder="Escriba su consulta..."
+              required></textarea>
 
-    </form>
+    <button type="submit">
+      Enviar consulta
+    </button>
 
-  </section>
+  </form>
 
+</section>
   <!-- FOOTER -->
 
   <footer>
