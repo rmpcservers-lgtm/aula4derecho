@@ -7,11 +7,41 @@
   <title>Videoteca Jurídica</title>
 
   <link rel="stylesheet" href="style.css">
+
+  <style>
+
+    .video-wrapper{
+      width:90%;
+      max-width:1200px;
+      margin:50px auto;
+    }
+
+    .video-wrapper h3{
+      margin-bottom:20px;
+      text-align:center;
+    }
+
+    .video-wrapper iframe{
+      width:100%;
+      height:700px;
+      border:none;
+      border-radius:15px;
+      box-shadow:0 0 20px rgba(0,0,0,.4);
+    }
+
+    @media(max-width:768px){
+
+      .video-wrapper iframe{
+        height:300px;
+      }
+
+    }
+
+  </style>
+
 </head>
 
 <body>
-
-  <!-- HEADER -->
 
   <header>
 
@@ -21,152 +51,60 @@
 
     <nav>
       <a href="index.html">Inicio</a>
+      <a href="index2.html">Biblioteca</a>
     </nav>
 
   </header>
 
-  <!-- HERO -->
+  <section class="hero">
 
-  <div class="card">
+    <div class="overlay"></div>
 
-  <h3>Tutorial: Cómo ingresar al Aula</h3>
+    <div class="hero-content">
 
- <iframe
-  src="https://player.vimeo.com/video/1196843675"
-  width="100%"
-  height="600"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen>
-</iframe>
-</div>
+      <h1>Videoteca Jurídica</h1>
 
-  <!-- AÑOS -->
-
-  <div class="card">
-
-  <h3>Tutorial: Cómo ingresar al Aula</h3>
-
-  <iframe
-  src="https://player.vimeo.com/video/1196843675"
-  width="100%"
-  height="600"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen>
-</iframe>
-
-</div>
-
-      <!-- SEGUNDO AÑO -->
-
-     <div class="card">
-
-  <h3>Tutorial: Cómo ingresar al Aula</h3>
-
- <iframe
-  src="https://player.vimeo.com/video/1196843675"
-  width="100%"
-  height="600"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen>
-</iframe>
-
-</div>
-
-      <!-- TERCER AÑO -->
-
-      <div class="card">
-
-  <h3>Tutorial: Cómo ingresar al Aula</h3>
-
- <iframe
-  src="https://player.vimeo.com/video/1196843675"
-  width="100%"
-  height="600"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen>
-</iframe>
-
-</div>
-      <!-- CUARTO AÑO -->
-
-      <div class="card">
-
-  <h3>Tutorial: Cómo ingresar al Aula</h3>
-
-  <iframe
-  src="https://player.vimeo.com/video/1196843675"
-  width="100%"
-  height="600"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen>
-</iframe>
-
-</div>
-      <!-- QUINTO AÑO -->
-
-     <div class="card">
-
-  <h3>Tutorial: Cómo ingresar al Aula</h3>
-
- <iframe
-  src="https://player.vimeo.com/video/1196843675"
-  width="100%"
-  height="600"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen>
-</iframe>
-
-</div>
-
-      <div class="card">
-
-  <h3>Tutorial: Cómo ingresar al Aula</h3>
-
-  <iframe
-  src="https://player.vimeo.com/video/1196843675"
-  width="100%"
-  height="600"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen>
-</iframe>
-</div>
-
-      <!-- REGIMENTACION -->
-       
-     <div class="card">
-
-  <h3>Tutorial: Cómo ingresar al Aula</h3>
-
- <iframe
-  src="https://player.vimeo.com/video/1196843675"
-  width="100%"
-  height="600"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen>
-</iframe>
-
-</div>
+      <p>
+        Tutoriales y material audiovisual de apoyo académico.
+      </p>
 
     </div>
-    
-
-    
-      
-
-
-
 
   </section>
 
-  <!-- FOOTER -->
+  <section class="material">
+
+    <h2>Tutoriales</h2>
+
+    <div class="video-wrapper">
+
+      <h3>Cómo ingresar al Aula</h3>
+
+      <iframe
+        src="https://player.vimeo.com/video/1196843675"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+
+    <!-- DUPLICA ESTE BLOQUE PARA MÁS VIDEOS -->
+
+    <!--
+    <div class="video-wrapper">
+
+      <h3>Nombre del Tutorial</h3>
+
+      <iframe
+        src="LINK_VIMEO"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+    -->
+
+  </section>
 
   <footer>
 
